@@ -48,17 +48,17 @@
         .media {
             margin-top: 1.5em;
         }
-        .instagram {
-            margin-top: 1em;
-            width: 200px; /* Ancho en formato móvil */
-            height: 355px; /* Alto 9:16 */
-            overflow: hidden;
-            border: 2px solid #fff; /* Opcional */
+        .instagram-logo {
+            margin-top: 1.5em;
         }
-        .instagram iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
+        .instagram-logo img {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .instagram-logo img:hover {
+            transform: scale(1.1); /* Efecto hover */
         }
 
         /* Animaciones */
@@ -93,7 +93,7 @@
         La autodicción es un pilar fundamental en mi educación, y siempre estoy abierto a aprender cosas nuevas.
         Bienvenido a mi portfolio, donde encontrarás proyectos que reflejan mi dedicación y amor por el arte del cine y el espectáculo.
     </p>
-    <!-- Aquí puedes añadir imágenes o videos -->
+    <!-- Contenido multimedia -->
     <div class="media">
         <iframe frameborder="0" 
                 src="https://itch.io/embed/2250457?border_width=4&amp;bg_color=000000&amp;fg_color=ffffff" 
@@ -101,8 +101,12 @@
             <a href="https://dreamingvisuals.itch.io/only-up-for-poors">Only Up For Poors by dreamingvisuals</a>
         </iframe>
     </div>
-    <!-- Instagram embebido -->
-
+    <!-- Logo de Instagram -->
+    <div class="instagram-logo">
+        <a href="https://www.instagram.com/dreamingvisualshuelva/" target="_blank">
+            <img src="https://raw.githubusercontent.com/pedrolferia/pedrolferia/refs/heads/main/Instagram_icon.png" alt="Instagram">
+        </a>
     </div>
+    <h2>dreamingvisualshuelva</h2>
 </body>
 </html>
